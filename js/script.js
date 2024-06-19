@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const texto = e.target.result;
                 try {
                     mestre = JSON.parse(texto);
+                    window.location.href = 'html/modelos.html';
                 } catch (err) {
                     console.error('Erro ao parsear o JSON:', err);
                 }
@@ -40,6 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     botao_comecar.addEventListener('click', click_comecar);
 
-    botao_comecar.addEventListener('click', click_carregar);
+    botao_carregar.addEventListener('click', click_carregar);
 
 });
