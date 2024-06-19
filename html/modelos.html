@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Modelo & Medidas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/presets.css">
+        <link rel="stylesheet" href="../css/style_modelos.css">
+        <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="../js/script_modelos.js" type="module"></script>
+    </head>
+
+    <body>
+        <header>
+            <a href="../index.html" class="a_logo"><img src="../img/Vecchio_logo.png" alt="Logo" class="img_logo_pqn"></a>
+            <nav class="menu_nav">
+                <a href="modelos.html" class="aba_selecionada">Modelo & Medidas</a>
+                <a href="perfis.html" class="aba">Perfis</a>
+                <a href="acessorios.html" class="aba">Acessórios</a>
+                <a href="vidros.html" class="aba">Vidros</a>
+                <a href="orcamento.html" class="aba_orcamentos">Orçamento</a>
+            </nav>
+        </header>
+        <main>
+            <div class="coluna_1">
+                <div class="linha">
+                    <div class="imput_grande">
+                        <h2>Cliente:</h2>
+                        <input type="text" class="input_nome">
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="imput_grande">
+                        <h2>Produto:</h2>
+                        <input type="text" class="input_nome">
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="input_simples">
+                        <h2>Quantidade:</h2>
+                        <div class="subinput_simples">
+                            <input type="text" class="input_qnt">
+                            <h3>pcs</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="input_simples">
+                        <h2>Largura:</h2>
+                        <div class="subinput_simples">
+                            <input type="text" class="input_qnt">
+                            <h3>mm</h3>
+                        </div>
+                    </div>
+                    <h2>X</h2>
+                    <div class="input_simples">
+                        <h2>Altura:</h2>
+                        <div class="subinput_simples">
+                            <input type="text" class="input_qnt">
+                            <h3>mm</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="input_simples">
+                        <h2>Folga:</h2>
+                        <div class="subinput_simples">
+                            <input type="text" class="input_qnt">
+                            <h3>mm</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="linha_divisoria"></div>
+            <img src="https://via.placeholder.com/100x100" alt="Ilutração" class="ilustracao">
+        </main>
+        <footer>
+            <div class="div_footer">
+                <h5>Medida com folga:</h5>
+                <h5 id="largura_com_folga">00.00</h5>
+                <h5>mm</h5>
+                <h5>X</h5>
+                <h5 id="altura_com_folga">00.00</h5>
+                <h5>mm</h5>
+            </div>
+            <div class="div_footer">
+                <h5>Medida externa:</h5>
+                <h5 id="largura_externa">00.00</h5>
+                <h5>mm</h5>
+                <h5>X</h5>
+                <h5 id="altura_externa">00.00</h5>
+                <h5>mm</h5>
+            </div>
+        </footer>
+    </body>
+</html>
