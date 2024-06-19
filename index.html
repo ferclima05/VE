@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Ereon</title>
+        <title>Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
         <script src="js/script.js" type="module"></script>
     </head>
 
     <body>
         <main>
-            <img src="img/Ereon_logo.png" alt="Logo" class="img_logo">
+            <img src="img/Vecchio_logo.png" alt="Logo" class="img_logo">
+            <div class="linha_divisoria"></div>
+            <div class="botoes_inicio">
+                <a href="html/modelos.html" class="botao_comecar_novo">Começar novo orçamento</a>
+                <a href="html/modelos.html" class="botao_carregar">Carregar orçamento existente</a>
+                <input type="file" id="seletor_arquivo" accept=".json" style="display: none;">
+            </div>
         </main>
     </body>
 </html>
