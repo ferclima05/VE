@@ -23,94 +23,94 @@ export class LG056 extends Perfil {
         this.codigo = 'LG056';
     }
     calculaPeso() {
-        return ((this.tamanho/1000) * this.kg_mt).toFixed(3);
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class LG058 extends Perfil {
+export class LG058 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.759;
         this.codigo = 'LG058';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class LG007 extends Perfil {
+export class LG007 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 1.229;
         this.codigo = 'LG007';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class LG043 extends Perfil {
+export class LG043 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.93;
         this.codigo = 'LG043';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class LG016 extends Perfil {
+export class LG016 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.338;
         this.codigo = 'LG016';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class LG027 extends Perfil {
+export class LG027 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.149;
         this.codigo = 'LG027';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class VZ006 extends Perfil {
+export class VZ006 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.326;
         this.codigo = 'VZ006';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class MP347 extends Perfil {
+export class MP347 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.202;
         this.codigo = 'MP347';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
 
-class CM063 extends Perfil {
+export class CM063 extends Perfil {
     constructor(tamanho, pos, corte) {
         super(tamanho, pos, corte);
         this.kg_mt = 0.173;
         this.codigo = 'CM063';
     }
     calculaPeso() {
-        return (this.tamanho/1000) * this.kg_mt;
+        return ((this.tamanho/1000) * this.kg_mt);
     }
 }
